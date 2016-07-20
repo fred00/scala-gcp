@@ -1,5 +1,5 @@
 # scala-gcp
-Scala simple development environment on Google Cloud Platform (Compute Engine)
+Simple Scala development environment uwing VIM and SBT on Google Cloud Platform (Compute Engine)
 
 First create a compute instance on Google Cloud Platform (any instance type will fit).
 
