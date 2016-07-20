@@ -15,7 +15,9 @@ sudo apt-get --yes install sbt
 sudo update-ca-certificates -f
 
 # Add Scala syntax highlighting
-mkdir -p ~/.vim/{ftdetect,indent,syntax}
+mkdir -p ~/.vim/ftdetect
+mkdir -p ~/.vim/indent
+mkdir -p ~/.vim/syntax
 for d in ftdetect indent syntax ; do wget -O ~/.vim/$d/scala.vim https://raw.githubusercontent.com/derekwyatt/vim-scala/master/$d/scala.vim; done
 
 echo "Now you can run a scala project using SBT and edit files using VIM."
